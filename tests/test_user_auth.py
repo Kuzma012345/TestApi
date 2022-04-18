@@ -34,7 +34,7 @@ class TestUserAuth(BaseCase):
             cookies={"auth_sid": self.auth_sid}
         )
 
-        Assertions.assertJsonValue(response2, "user_id", self.user_id, "Id пользователя не совпадает с id ответ")
+        Assertions.assertJsonValue(response2, "user_id", self.user_id, "Users id does not match to the respone user id")
 
 
     @pytest.mark.parametrize('condition', exclude_params)
@@ -54,5 +54,5 @@ class TestUserAuth(BaseCase):
                 cookies={"auth_sid": self.auth_sid}
             )
         
-        Assertions.assertJsonValue(response2,"user_id", 0, "Статус авторизации пользователя не равен 0")
+        Assertions.assertJsonValue(response2,"user_id", 0, "Auth status is not equal to 0")
 
