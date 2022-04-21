@@ -1,0 +1,21 @@
+{
+   "response": {
+      "count": 32363,
+      "items": [
+         {
+            "first_name": "Sonya",
+            "last_name": "Kargina",
+            "photo_50": "https://pp.vk.me/c421526/v421526527/b2c1/J2EL--qCZa8.jpg",
+            "likes": 89068,
+            "binary": null
+         },
+         {
+            "first_name": "Slava",
+            "last_name": "Kholod",
+            "photo_50": "https://pp.vk.me/c630619/v630619166/3e321/eTxKNQSJMuk.jpg",
+            "likes": 61756,
+            "binary": null
+         }
+      ]
+   }
+}
